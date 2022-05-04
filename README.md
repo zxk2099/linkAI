@@ -5,7 +5,7 @@
   </a>
 </p>
 
-<h1 align="center">网盘智能识别助手</h1>
+<h1 align="center">网盘(链接)智能识别助手</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/TamperMonkey-v4.13-brightgreen.svg" alt="tampermonkey">
@@ -35,11 +35,6 @@
 
 ![](https://unpkg.com/youxiaohou/Y3a6hEjzHxqXPWG.png)
 
-## 💽 安装地址
-
-- **[安装地址（官方）](https://www.youxiaohou.com/tool/install-panai.html)**
-
-- **[安装地址（GreasyFork）](https://greasyfork.org/zh-CN/scripts/422960)**
 
 ## 📖 使用说明
 
@@ -50,6 +45,7 @@
 ![](https://unpkg.com/youxiaohou/oqMDRTiIcBlYudv.png)
 
 ## 📖 更新日志
+**v1.8.1** fork后进行私人定制修改。将识别提示框改为系统提示框，可以使用Esc、Enter、SPACE键盘操作。
 
 **v1.8.0** 增加对百度企业网盘，百度网盘文档，115网盘，奶牛快传，城通网盘，夸克网盘的识别。
 
