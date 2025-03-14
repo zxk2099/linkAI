@@ -108,17 +108,17 @@
         }/* added start*/,
 
         fix(text){
-            let rgx_bd = /(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])[A-Za-z0-9]{23}/;
-            if(text.match(rgx_bd)){
-                return text.replace(rgx_bd, "https://pan.baidu.com/s/$&");
+            let rgx = /(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])[A-Za-z0-9]{23}/; /** 百度*/
+            if(text.match(rgx)){
+                return text.replace(rgx, "https://pan.baidu.com/s/$&");
             }
-            let rgx_qk =/(?=.*[a-z])(?=.*[0-9])[A-Za-z0-9]{12}/;
-            if(text.match(rgx_qk)){
-                return text.replace(rgx_qk,"https://pan.quark.cn/s/$&");
+            rgx =/(?=.*[a-z])(?=.*[0-9])[a-z0-9]{12}/; /** 夸克*/
+            if(text.match(rgx)){
+                return text.replace(rgx,"https://pan.quark.cn/s/$&");
             }
-            let rgx_lznew = /(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])[A-Za-z0-9]{12}/;
-            if(text.match(rgx_lznew)){
-                return text.replace(rgx_lznew,"https://pan.lanzou.com/$&")
+            rgx = /(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])[A-Za-z0-9]{12}/; /** 蓝奏云*/
+            if(text.match(rgx)){
+                return text.replace(rgx,"https://pan.lanzous.com/$&")
             }
         }
         /* added end */
